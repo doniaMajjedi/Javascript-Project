@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MasterMind</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <center>
+            <section class="player">
+                <center><h2 class="name">Enter a number</h2></center>
+                <div class="current">
+                    <input type="number" class="score" id="Enumber"/>
+                </div>
+                <button id="check">CHECK 🔍</button>  
+                <button id="new">New Game</button>
+                <div class="calcul">
+                    <div>
+                    </br>
+                        <p class="current-label">How many numbers in the right position ✔</p>
+                        <p class="current-score" id="vrai">0</p>
+                    </div>
+                    <div></br></br></br>
+                        <p class="current-label">Tries</p>
+                        <p class="current-score" id="tries">10</p>
+                    </div>
+                    <div>
+                        </br>
+                        <p class="current-label">How many numbers in the wrong position ❌</p>
+                        <p class="current-score" id="faux">0</p>
+                    </div>
+                </div>
+            </section>
+        </center>
+    </main> 
+    <script src="spript.js"></script>
+</body>
+</html>
